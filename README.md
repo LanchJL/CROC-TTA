@@ -141,16 +141,6 @@ method,backbone,dataset,top1_acc,num_samples,n_views,alpha,theta,rho,num_steps,l
 
 Generated outputs, caches, logs, model weights, and local datasets are ignored by Git.
 
-## Validation
-
-Run the CPU-only mathematical and episodic-state checks:
-
-```bash
-python -m croc.sanity
-```
-
-Use `--debug` during evaluation to enable additional posterior validity checks.
-
 ## Privacy and Reproducibility
 
 - Keep datasets, checkpoints, caches, and experiment outputs outside version control.
