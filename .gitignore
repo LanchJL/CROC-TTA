@@ -1,0 +1,110 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build artifacts
+build/
+dist/
+site/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environments and local environment files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Editors, notebooks, and operating-system files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local agent and assistant state
+.agents/
+.codex/
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# Local datasets
+/data_root/
+/datasets/
+/temp_data/
+/imagenet/
+/imagenet-a/
+/imagenetv2/
+/imagenet-r/
+/ImageNet-Sketch/
+/SUN397/
+/fgvc_aircraft/
+/eurosat/
+/stanford_cars/
+/food-101/
+/oxford_pets/
+/Flower102/
+/caltech-101/
+/dtd/
+/ucf101/
+
+# Model weights and checkpoints
+/checkpoints/
+/checkpoint/
+/weights/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.weights
+*.h5
+
+# Experiment outputs and logs
+/results/
+/experiments/
+/outputs/
+/runs/
+/logs/
+/wandb/
+/tensorboard/
+*.log
+*.csv
+*.tsv
+*.jsonl
+
+# Runtime and feature caches
+/cache/
+/.cache/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Local configuration overrides
+configs/local*.yaml
+configs/private*.yaml

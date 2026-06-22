@@ -1,0 +1,4 @@
+method: croc
+dataset: R
+backbone: ViT-B/16
+encode_chunk: 128

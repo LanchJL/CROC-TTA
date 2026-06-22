@@ -1,0 +1,4 @@
+method: croc
+dataset: pets
+backbone: ViT-B/16
+encode_chunk: 128

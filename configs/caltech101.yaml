@@ -1,0 +1,4 @@
+method: croc
+dataset: caltech101
+backbone: ViT-B/16
+encode_chunk: 128
