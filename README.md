@@ -131,28 +131,6 @@ bash scripts/run_croc_cross_dataset.sh --data-root <DATA_ROOT>
 
 The natural-shift launcher reports the overall average and OOD average. The cross-dataset launcher reports the average over all ten datasets.
 
-## Ablations
-
-Frozen CLIP baseline:
-
-```bash
-python eval.py --method clip --dataset I --data-root <DATA_ROOT>
-```
-
-CROC without the sort-based feature update:
-
-```bash
-python eval.py --method croc --disable-feature-update --dataset I --data-root <DATA_ROOT>
-```
-
-CROC without exclusion inference:
-
-```bash
-python eval.py --method croc --disable-exclusion --dataset I --data-root <DATA_ROOT>
-```
-
-Enabling both disable flags is equivalent to the frozen CLIP prediction path.
-
 ## Outputs
 
 Each run writes `results.json` and `results.csv` under the selected output directory. Per-dataset CSV files contain:
